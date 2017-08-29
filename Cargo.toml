@@ -8,5 +8,7 @@ build = "build.rs"
 clap = "^2.26"
 
 [dependencies]
-difflib = "^0.2.0"
-clap = "^2.26"
+clap = "~2.26"
+difflib = "~0.2.0"
+rayon = "~0.8.2"
+strsim = "~0.6.0"
